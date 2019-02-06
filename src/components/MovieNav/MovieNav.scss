@@ -1,0 +1,71 @@
+/***
+================================
+VARIABLES
+===========================
+***/
+
+$green: #01d277;
+$black: #081c24;
+$white: #ffffff;
+$main-font: 'Roboto', sans-serif;
+
+/***
+================================
+BOOTSTRAP OVERRIDES
+===========================
+***/
+
+.navbar.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand.navbar__logo {
+  padding: 15px;
+}
+
+.nav-link.navbar__link {
+  padding: 18px;
+}
+
+.nav-link.active {
+  background-color: $green;
+  color: $black;
+}
+
+.form-group.navbar__form {
+  margin-bottom: 0;
+  padding: 11px;
+}
+
+/***
+================================
+STYLES
+===========================
+***/
+
+.navbar {
+  font-family: $main-font;
+  font-weight: 500;
+  background-color: $black;
+  padding: 0;
+
+  &__logo {
+    color: $black;
+    background-color: $green;
+  }
+
+  &__link {
+    color: $white;
+    padding: 18px;
+  }
+
+  &__link--active {
+    background-color: $green;
+    color: $black;
+  }
+
+  &__form {
+    margin-bottom: 0;
+  }
+}
