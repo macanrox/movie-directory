@@ -79,6 +79,10 @@ STYLES
   }
 
   &__search {
+    background-image: url(./search-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 16px;
     height: 30px;
     padding: 0;
     align-self: center;
