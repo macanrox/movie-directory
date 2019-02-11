@@ -3,9 +3,7 @@ import {
   Container,
   FormGroup,
   Input,
-  Label,
   Nav,
-  NavItem,
   NavLink,
   Navbar,
   NavbarBrand,
@@ -36,7 +34,7 @@ class MovieNav extends Component {
             </NavLink>
 
             <FormGroup className="navbar__form">
-              <Input type="search" name="search" />
+              <Input className="navbar__search" type="search" name="search" />
             </FormGroup>
           </Nav>
         </Container>

@@ -35,7 +35,15 @@ BOOTSTRAP OVERRIDES
 
 .form-group.navbar__form {
   margin-bottom: 0;
-  padding: 11px;
+  padding: 0;
+}
+
+.form-control.navbar__search {
+  height: 25px;
+  padding: 0;
+  background-color: rgba($white, 0.5);
+  outline: none;
+  border: none;
 }
 
 /***
@@ -66,6 +74,13 @@ STYLES
   }
 
   &__form {
+    display: flex;
     margin-bottom: 0;
+  }
+
+  &__search {
+    height: 30px;
+    padding: 0;
+    align-self: center;
   }
 }
