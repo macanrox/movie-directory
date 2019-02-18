@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MovieNav from '../MovieNav/MovieNav';
+import MovieFooter from '../MovieFooter/MovieFooter';
 import './App.scss';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div className="app-container">
         <MovieNav />
+        <MovieFooter />
       </div>
     );
   }
