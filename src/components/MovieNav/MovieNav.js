@@ -8,6 +8,7 @@ import {
   Navbar,
   NavbarBrand,
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import './MovieNav.scss';
 
 const MovieNav = () => {
@@ -19,10 +20,10 @@ const MovieNav = () => {
         </NavbarBrand>
 
         <Nav>
-          <NavLink active href="#" className="navbar__link">
+          <NavLink active tag={Link} to="/" className="navbar__link">
             Browse
           </NavLink>
-          <NavLink href="#" className="navbar__link">
+          <NavLink tag={Link} to="/credits" className="navbar__link">
             Credits
           </NavLink>
 
